@@ -1,0 +1,38 @@
+
+Script for the parallelized application of the BM3D denoising filter 
+as well as other image processing to multiple images in order to shorten computation times
+Please launch Parallel_BM3D_denoising.m to execute the code
+
+
+
+Matlab components required:
+
+Image Processing Toolbox
+Parallel Processing Toolbox
+Deep Learning Toolbox (optional)
+
+
+Original code available at https://www.cs.tut.fi/~foi/GCF-BM3D/
+Please refer to the TUT limited license at https://www.cs.tut.fi/~foi/GCF-BM3D/legal_notice.html
+
+
+
+References
+
+
+"Practical Poissonian-Gaussian noise modeling and fitting for single-image raw-data", IEEE Trans. Image Process., vol. 17, no. 10, pp. 1737-1754, October 2008.
+% L. Azzari 
+
+
+A. Foi, Gaussian-Cauchy mixture modeling for robust signal-dependent noise estimation, Proc. 2014 IEEE Int. Conf. Acoustics, Speech, Signal Process. (ICASSP 2014), pp. 5357-5361, Florence, Italy, May 2014. 
+
+Foi, A., "Practical denoising of clipped or overexposed noisy images", Proc. 16th European Signal Process. Conf., EUSIPCO 2008, Lausanne, Switzerland, August 2008.
+ 
+If denoising is performed with BM3D then cite
+K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, "Image denoising by sparse 3D transform-domain collaborative filtering," IEEE Trans. Image Process., vol. 16, no. 8, August 2007.
+
+If denoising is performed with deep convolutional netwowrk DnCNN then cite
+Zhang, K., W. Zuo, Y. Chen, D. Meng, and L. Zhang. "Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising." IEEE Transactions on Image Processing. Vol. 26, Number 7, Feb. 2017, pp. 3142-3155.
+
+If CLAHE contrast improvement is used then cite
+Zuiderveld, Karel. “Contrast Limited Adaptive Histograph Equalization.” Graphic Gems IV. San Diego: Academic Press Professional, 1994. 474–485.
